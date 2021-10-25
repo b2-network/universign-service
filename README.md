@@ -136,7 +136,7 @@ $client->setCredentials(
 
 $requester = new \Globalis\Universign\Requester($client);
 // Return a \Globalis\Universign\Response\TransactionResponse (with transaction url and id)
-$response = $req->requestTransaction($request);
+$response = $requester->requestTransaction($request);
 
 $signatureUrl = $response->url;
 $transactionId = $response->id;
