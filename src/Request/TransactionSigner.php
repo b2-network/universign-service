@@ -4,9 +4,9 @@ namespace Globalis\Universign\Request;
 
 class TransactionSigner extends Base
 {
-    const ROLE_SIGNER = 'Signer';
+    const ROLE_SIGNER = 'signer';
 
-    const ROLE_OBSERVER = 'Observer';
+    const ROLE_OBSERVER = 'observer';
 
     const CERTIFICATE_TYPE_LOCAL = 'local';
 
